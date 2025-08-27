@@ -17,6 +17,25 @@ const Home = () => {
 
   const cards = [
     {
+      title: 'Tetris',
+      description: 'Play a quick game',
+      route: '/tetris',
+    },
+    {
+      title: 'Sydney Trains',
+      description: 'Get average times and schedule info',
+      route: '/trains',
+    },
+    {
+      title: 'DB View',
+      description: 'View and query the Cadmus database',
+      route: '/dbview',   // <-- New route path
+    }
+
+  ];
+  /*
+  const cards = [
+    {
       title: 'JSM Assets',
       description: 'Click to view and manage your assets',
       route: '/jsm',
@@ -60,6 +79,8 @@ const Home = () => {
       route: '/trainsv2',   // <-- New route path
     }
   ];
+
+  */
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
